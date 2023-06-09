@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+*{
+    margin: 0;
+}
+
+/* Página 2 Receitas*/
+.colunas{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+/*linhas que separam ingredientes de preparo*/
+.coluna1__linha{
+    margin-top: 55px;
+    color: rgb(166, 162, 162)
+}
+.coluna2__linha{
+    margin: 20px;
+    color: rgb(166, 162, 162)
+}
+.coluna3__linha{
+    margin: 15px;
+    color: rgb(166, 162, 162)
+
+}
+.item-receita{
+    box-sizing: border-box;   
+    height: 80%;
+    background-color: white ;
+    margin: 10px 10px 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(215, 215, 161, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+.img_receita{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30%;
+
+}
+.card-title{
+    margin-top: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    
+    
+}
+
+/*formatos ao texto*/
+.card-text{   
+    text-align: start;
+    margin: 10px auto 10px auto;
+    padding-right: 50px;
+    font-size: larger;
+    font-family: 'Mulish', sans-serif;
+   
+}
+/*separação de cada item*/
+.item1{
+    margin: 0 0 10px 50px;
+
+}
+.item2{
+    margin: 0 0 10px 50px;
+
+}
+.item3{
+    margin: 0 0 5px 50px;
+
+}
+/*formatos ao texto*/
+.preparo{
+    font-family: 'Mulish', sans-serif;     
+    font-size:large;
+    letter-spacing: 2px;
+    text-align:justify ;
+    padding: 0;
+    
+
+}
+
+
+  

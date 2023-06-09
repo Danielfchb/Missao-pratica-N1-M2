@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+*{
+    margin: 0;
+}
+/*background-image: url(/site-html/imagem/03.png)*/
+/* Página 1 Home*/
+.barra__de__navegacao{
+    box-sizing: border-box;
+    background-color: rgb(74, 72, 72);
+    height: 60px;
+    padding: 19px 0px 50px 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navegacao__link{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.502);
+    font-family: 'Raleway', sans-serif;
+    
+    
+
+}
+.navegacao__link:hover{
+    color: rgb(255, 255, 255);
+
+}
+.active{
+    color: white;
+
+}
+.header{
+    height: 60px;
+}
+.footer{
+    height: 25px;
+}
+
+.logo__principal{        
+    width: 50px;
+    height: 50px;
+    padding: 5px 0 0 0;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content:center;
+    margin-top: 17rem;
+    
+}
+/*Mensagem de saudação*/
+.texto__inicial1{   
+    text-align: center;
+    padding: 0 0 20px 0; 
+    font-size: 3rem;
+       
+}
+.texto__inicial2{
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+/*Página de cadastro*/
+.form-title{
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    margin: 50px 0 10px 20px;    
+}
+.form-text{
+    font-family: 'Mulish', sans-serif;    
+}
+
+/*Barras de cadastror*/
+.form-control{
+    height: 40px;
+    width: 43.8rem;
+    margin: 0 0 20px 124px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+    
+}
+
+/*Formatos: nome, email, cep e rua*/
+.mb-1{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+}
+
+/*Formaos: nº, complemento, cidade e uf*/
+.mb-2{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+}
+
+/*Formatos: nome, email, cep, rua e nº*/
+.form-label1{
+    padding: 10px 0 10px 30px;
+    font-size: larger;
+}
+
+/*Formatos: complemento e uf*/
+.form-label2{
+    padding: 10px 50px 10px 30px;
+    font-size:larger;
+}
+
+/*Formato e tamanhos diferente para cada barra de cadastro*/
+/*Nome*/
+.form-control1{
+    height: 40px;
+    width: 43.8rem;
+    margin: 0 0 20px 124px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+    display: flex;
+}
+/*E-mail*/
+.form-control2{
+    height: 40px;
+    width: 43.8rem;
+    margin: 0 0 20px 119px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*CEP*/
+.form-control3{
+    height: 40px;
+    width: 21rem;
+    margin: 0 0 20px 140px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*Rua*/
+.form-control4{
+    height: 40px;
+    width: 43.8rem;
+    margin: 0 0 20px 141px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*Nº*/
+.form-control5{
+    height: 40px;
+    width: 13rem;
+    margin: 0 0 20px 156px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*Complemento*/
+.form-control6{
+    height: 40px;
+    width: 17.7rem;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*Cidade*/
+.form-control7{
+    height: 40px;
+    width: 30.1rem;
+    margin: 0 0 20px 113px;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*UF*/
+.form-control8{
+    height: 40px;
+    width: 6.9rem;
+    margin: 0 55px 20px 0;
+    border-radius: 5px;
+    border-color: rgb(0,0,0,0.3);
+    border-width: 1px;
+}
+/*Botão Cadastrar*/
+.form-butom{
+    font-family: 'Mulish', sans-serif;
+    font-size: large;
+    color: rgb(202, 200, 200);
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+}
+
+/*roda-pé da página2*/
+.roda__pe{
+    padding: 22px 0 5px 0;
+    color: #fffbfb;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Kanit', sans-serif;
+
+}
+.copyright{
+    text-align: center;
+    color:#fffbfb;
+    
+    
+    
+}
